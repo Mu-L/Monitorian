@@ -123,7 +123,7 @@ The device instance ID is an unique identifier given by the OS to each monitor. 
 
 The brightness or contrast ranges from 0 to 100%. When you use `/set` option, it can be specified with the number itself (e.g. 20), increase (e.g. +10) or decrease (e.g. -10).
 
-The options can be executed consecutively (e.g. `monitorian /get 20 /get contrast 20`).
+The options can be executed consecutively (e.g. `monitorian /set 20 /set contrast 40`).
 
 You can call this app by its name `Monitorian` in command prompt or bat file. From Task Scheduler, it can be performed by the path to its alias `%LOCALAPPDATA%\Microsoft\WindowsApps\Monitorian.exe`. For example, to increase brightness of all monitors by 30%, the Action will be the following:
 
@@ -180,7 +180,7 @@ In any case, reporting on the controllability of a monitor MUST include probe.lo
 ### Command-line arguments
 
  - As part of testing, you can store persistent arguments in `Command-line arguments` in the hidden menu. They will be tested along with current arguments when this app starts.
- - For example, if you want to fix this app's language to English (default), set `/lang en` in this box.
+ - For example, if you want this app to always use English language (default), set `/lang en` in this box.
 
 ### Exceptions
 
